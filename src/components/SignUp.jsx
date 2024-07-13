@@ -46,7 +46,7 @@ const SignUp = () => {
           body: JSON.stringify(data),
         });
         const result = await response.json();
-        console.log(result);
+        //console.log(result);
         if (response.ok && result !== "Account Exists") {
           Swal.fire({
             title: "Registration Successful",
