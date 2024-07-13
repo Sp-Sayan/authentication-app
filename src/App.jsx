@@ -9,7 +9,7 @@ function App() {
   const [bgvideo, setBgVideo] = useState(false);
 
   const login = () => {
-    console.log("Login function called");
+    //console.log("Login function called");
     setAuthenticated(true);
   };
   const logout = () => {
