@@ -27,7 +27,7 @@ const Login = (props) => {
       try {
         setEmptyData(false);
         setDisplay(false);
-        const response = await fetch("http://localhost:3001/login", {
+        const response = await fetch("https://authentication-app-backend-five.vercel.app/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
